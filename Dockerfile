@@ -1,4 +1,4 @@
-FROM nginx:1.9.6
+FROM nginx:1.13
 
 COPY files /usr/share/nginx/html
 RUN mkdir /usr/share/nginx/doc
